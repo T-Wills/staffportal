@@ -1,0 +1,52 @@
+.app{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 8% 92%;
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contentsGrid{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 1rem;
+}
+
+.score{
+    width:100%;
+    height:auto;
+    display: block;
+    padding: 1.5rem .5rem;
+}
+
+.scoreGrid{
+   display: grid;
+   grid-template-columns: 32% 32% 32%;
+   grid-gap: 10px;
+}
+
+.gold{
+    background-color: #F7C332;
+}
+
+.blue{
+    background-color: #4150DD;
+}
+
+.purple{
+    background-color: #6B59AF;
+}
+

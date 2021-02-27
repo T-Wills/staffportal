@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Lobster&display=swap');
+
+.loginbg{
+    width:100%;
+    height:100vh;
+    background-image: url("../../../../Images/hall.jpg");
+    background-size: cover;
+    padding: 10rem 15rem;
+}
+
+.login{
+    width:100%;
+    height: auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.loginCard{
+    width: 100%;
+    height: 30rem;
+    padding: 5rem;
+}
+.purpleBg{
+    background: linear-gradient(180deg, rgba(112, 8, 240, 1.0), rgba(58, 3, 56, 0.9));
+}
+.whiteBg{
+    background:rgba(255,255,255,0.7);
+    text-align: center;
+}.name{
+    width: 100%;
+    height: 10rem;
+    color: white;
+    text-align: center;
+    img{
+        width: 20%;
+    }
+}
+.purpleBg h4{
+    font-family: Lobster;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.whiteBg img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.whiteBg h4{
+   font-family: Bad Script;
+   color: #640ad2;
+   font-style: 2rem;
+}
+
+
+
+
+@media (max-height: 500px) {
+    .loginbg{padding: .5rem;}
+    .loginCard{padding: 3rem .5rem;}
+    .grid{display: grid;grid-template-columns: 100%;}
+    .purpleBg{display: none;}
+
+}
+@media (max-width: 640px) {
+    .loginbg{padding: .5rem;}
+    .loginCard{padding: 3rem .5rem;}
+    .grid{display: grid;grid-template-columns: 100%;}
+    .purpleBg{display: none;}
+}
+@media (max-height: 600px) {
+    .loginbg{padding: .5rem;}
+    .loginCard{padding: 3rem .5rem;}
+    .grid{display: grid;grid-template-columns: 100%;}
+    .purpleBg{display: none;}
+}
+@media (max-width: 640px) {
+    .loginbg{padding: .5rem;}
+    .loginCard{padding: 3rem .5rem;}
+    .grid{display: grid;grid-template-columns: 100%;}
+    .purpleBg{display: none;}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+ }

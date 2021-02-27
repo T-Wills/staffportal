@@ -1,0 +1,65 @@
+.navbar{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(112, 8, 240, 1.0), rgba(58, 3, 56, 0.9));
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.logo{
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    text-align: center;
+    img{
+        width: 30%;
+    }
+}
+.navLinks{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-left: .5rem;
+    text-align: center;
+    ul{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    ul a li{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        color: white;
+        line-height: 2rem;
+        font-size: 1.1rem;
+        color: white;
+    }
+}
+
+// Top Navigation
+.topNav{
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    background: white; 
+  
+    box-shadow:0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+}
+.topNavGrid{
+display: grid;
+grid-template-columns: 10% 65% 10% 15%;
+}
+.cards{
+    width: 100%;
+    height: 3rem;
+}
+.card img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-radius: 50%;
+}
